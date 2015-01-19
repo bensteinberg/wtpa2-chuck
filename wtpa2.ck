@@ -126,12 +126,12 @@ public class WTPA2
   // Half Speed Playback
   // 16
   // 0 = Stop, >0 = Start
-  fun void startHalfspeed(int bank) {
+  fun void startHalfSpeed(int bank) {
     16 => int cc;
     _genericStart(bank, cc);
   }
     
-  fun void stopHalfspeed(int bank) {
+  fun void stopHalfSpeed(int bank) {
     16 => int cc;
     _genericStop(bank, cc);
   }
